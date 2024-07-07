@@ -1,64 +1,88 @@
 .sidebar {
-    position: fixed;
-    width: 230px;
-    height: 600px;
-    transform: translateY(-50%);
-    background-color: #1f1f1f;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-    margin-top: 350px;
+  position: fixed;
+  width: 230px;
+  height: 600px;
+  transform: translateY(-50%);
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 350px;
 }
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 600px) {
-    .sidebar {
-        left: 10px; /* Adjust for smaller screens */
-        width: 200px; /* Example: Reduce width for smaller screens */
-    }
+  .sidebar {
+    left: 10px; /* Adjust for smaller screens */
+    width: 200px; /* Example: Reduce width for smaller screens */
+  }
 }
 
 .Sidebar-TopElement {
-    margin-bottom: 20px;
-    color: white;
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
 }
 
+.SidebarImageComponent {
+  margin-right: 10px; /* Space between the image and text */
+}
+
+.Image {
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  outline: 4px solid #2ebeea; /* Yellow outline */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+  text-align: right;
+}
+
+.Image:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
 
 .ButtonElement {
-    margin-top: 20px;
+  margin-top: 20px;
+  width: 100%; /* Ensure buttons take full width */
 }
 
 .SidebarButton {
-    background-color: #444;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    transition: background-color 0.3s, transform 0.3s;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .SidebarButton:hover {
-    background-color: #555;
-    transform: translateY(-2px);
+  background-color: #555;
+  transform: translateY(-2px);
 }
 
 .SidebarButton:active {
-    background-color: #666;
-    transform: translateY(0);
+  background-color: #666;
+  transform: translateY(0);
 }
 
 .SidebarButton h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    flex: 1;
+  margin: 0;
+  font-size: 1.5rem;
+  flex: 1;
 }
