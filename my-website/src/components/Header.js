@@ -22,15 +22,19 @@ const Header = () => {
                     <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
                 </button>
                 */}
-                <a href="mailto:Chetaspatel1345@gmail.com" className="social-icon">
-                    <i className="fas fa-envelope"></i>
-                </a>
-                <a href="https://github.com/MrRogerTag1345" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-github"></i>
-                </a>
+
                 <a href="https://www.linkedin.com/in/chetas-patel-ba9379165/" target="_blank" rel="noopener noreferrer" className="social-icon">
                     <i className="fab fa-linkedin"></i>
                 </a>
+
+                <a href="https://github.com/MrRogerTag1345" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <i className="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:Chetaspatel1345@gmail.com" className="social-icon">
+                    <i className="fas fa-envelope"></i>
+                </a>
+                
             </div>
         </header>
     );
