@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import MyPhoto from '../images/LogoSC.png';
-import './Sidebar.css'; // Correct import path
+import './Sidebar.css';
 
 const Sidebar = () => {
   const navigate = useNavigate();
