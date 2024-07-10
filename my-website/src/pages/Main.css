@@ -24,3 +24,26 @@
     z-index: 50; /* Ensure header is below sidebar */
     position: relative; /* Ensures stacking context */
 }
+
+.website {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.sidebar {
+    z-index: 2; /* Ensure sidebar is above the particle background */
+}
+
+.home-page {
+    flex: 1;
+    position: relative;
+    z-index: 1; /* Ensure content is above the particle background */
+}
+
