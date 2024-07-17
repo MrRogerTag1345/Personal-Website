@@ -1,8 +1,15 @@
 /* src/pages/HomePage.css */
 
+body {
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
 .home-page {
     display: flex;
     flex-direction: column;
+    width: 100vw; /* Full viewport width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .particles-section {
@@ -13,13 +20,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .intro-content {
     position: absolute;
     top: -15%;
     left: 0;
-    width: 100%;
+    width: 100%; /* Ensure full width */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -28,10 +37,13 @@
     z-index: 2;
     color: white;
     text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .AboutMe-section {
     padding: 2rem;
     background-color: #f4f4f4; /* Different background color for contrast */
     z-index: 1;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
