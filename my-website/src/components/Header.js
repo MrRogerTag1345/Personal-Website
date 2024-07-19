@@ -17,7 +17,7 @@ const Header = () => {
             </span>
 
             <div className="social-icons">
-                {/*
+                {/* To change from dark mode to light mode.
                 <button id="themeToggle" className="social-icon" onClick={toggleTheme}>
                     <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
                 </button>

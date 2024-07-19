@@ -14,11 +14,9 @@ const Website = () => {
       <Header />
       <div className="content">
         <Sidebar />
-        <HomePage />
         <div className='Webpage'>
           <Routes>
-            {/* Default route for home page */}
-            <Route path="/home" element={<main />} /> {/* Trying to make this go back to main when clicked. */}
+            <Route path="/" element={<HomePage />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/other" element={<Other />} />

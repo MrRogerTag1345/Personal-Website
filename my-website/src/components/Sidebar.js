@@ -9,7 +9,7 @@ const Sidebar = () => {
   const selection = (page) => {
     switch (page) {
       case 1:
-        navigate('/home');
+        navigate('/');
         break;
       case 2:
         navigate('/experience');
