@@ -1,4 +1,3 @@
-/* Apply to the entire body */
 body {
     margin: 0; /* Remove default margin */
     overflow-x: hidden; /* Prevent horizontal overflow */
@@ -8,7 +7,7 @@ body {
 .website {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh; /* Ensure minimum full viewport height */
     width: 100vw; /* Full viewport width */
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
@@ -16,8 +15,7 @@ body {
 /* Main content container */
 .content {
     display: flex;
-    flex: 1;
-    position: relative;
+    flex-direction: column; /* Stack sections vertically */
     width: 100%; /* Ensure full width */
     overflow-x: hidden; /* Prevent horizontal overflow */
     background-color: rgb(17, 17, 17);
@@ -31,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%; /* Ensure full width */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 /* Header */

@@ -1,23 +1,19 @@
-/* src/pages/HomePage.css */
-
 body {
     margin: 0; /* Remove default margin */
     overflow-x: hidden; /* Prevent horizontal overflow */
-    overflow-y: hidden; /* Prevent vertical overflow */
 }
 
 .home-page {
     display: flex;
     flex-direction: column;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    overflow: hidden; /* Hide overflow to prevent scroll bars */
+    min-height: 100vh; /* Ensure minimum full viewport height */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .particles-section {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh; /* Adjust height to be 100% of viewport height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +35,6 @@ body {
 }
 
 .AboutMe-section {
-    position: relative; /* Adjust position if needed */
     padding: 2rem;
     background-color: #ffffff; /* Solid white background */
     z-index: 3; /* Adjust z-index as needed */
