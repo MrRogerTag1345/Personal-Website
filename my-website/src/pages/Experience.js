@@ -42,7 +42,8 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">Advanced Servo Technologies Inc</h3>
           <h4 className="vertical-timeline-element-subtitle">Brampton, ONT</h4>
           <p>
-            Purchasing Assistant/ Technician Assistant
+            Purchasing Assistant/ Technician Assistant 
+            <p></p>
             <br />
             Purchasing replacement components, such as Capacitors, Integrated Circuits, Transistors, Resistors, and Transformers, improved purchasing decisions by 10%.
             <br />
