@@ -29,7 +29,13 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">Wilfrid Laurier University</h3>
           <h4 className="vertical-timeline-element-subtitle">Waterloo, ONT</h4>
           <p>
-            Algorithms, Data Structures, Machine Learning, Ai, Compilers, Operating Systems.
+            During my studies at Wilfrid Laurier University, I gained a comprehensive understanding of key Computer Science disciplines including Algorithms,
+            Data Structures, Machine Learning, Artificial Intelligence, Compilers, and Operating Systems. Through rigorous coursework,
+            I developed strong analytical and problem-solving skills, mastering complex algorithms and efficient data structures that form the backbone of software development.
+            My exposure to Machine Learning and AI involved hands-on projects and practical applications, allowing me to explore predictive modeling and intelligent systems.
+            Courses in Compilers and Operating Systems provided me with deep insights into the inner workings of software and hardware integration,
+            enhancing my proficiency in system-level programming and optimization.
+            These foundational topics have equipped me with the technical expertise and critical thinking abilities essential for tackling real-world challenges in the tech industry.
           </p>
         </VerticalTimelineElement>
 
@@ -42,16 +48,21 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">Advanced Servo Technologies Inc</h3>
           <h4 className="vertical-timeline-element-subtitle">Brampton, ONT</h4>
           <p>
-            Purchasing Assistant/ Technician Assistant
+            Purchasing Assistant/ Technician Assistant 
+            <p></p>
             <br />
-            Purchasing replacement components, such as Capacitors, Integrated Circuits, Transistors, Resistors, and Transformers, improved purchasing decisions by 10%.
+            <span className="bullet-point">&bull; Optimized Component Procurement: Successfully procured replacement components including capacitors, integrated circuits, transistors, resistors, and transformers, resulting in a 10% improvement in purchasing decisions. </span>
             <br />
-            <span className="bullet-point">&bull; Assisting technicians in researching and finding suitable replacement units, and improved time management by 20%.</span>
+            <span className="bullet-point">&bull; Enhanced Time Management: Assisted technicians in researching and identifying suitable replacement units, leading to a 20% improvement in time management.</span>
             <br />
-            <span className="bullet-point">&bull; Worked with managing customer orders, using Salesforce.</span>
+            <span className="bullet-point">&bull; Customer Order Management: Efficiently managed customer orders using Salesforce, ensuring accurate and timely processing.</span>
             <br />
-            <span className="bullet-point">&bull; Worked with suppliers and distributors for receiving parts.</span>
+            <span className="bullet-point">&bull; Supplier and Distributor Coordination: Collaborated with suppliers and distributors to ensure timely receipt of parts, maintaining seamless operations.</span>
           </p>
+
+          <a href="https://www.servo1.com/" target="_blank" rel="noopener noreferrer">
+            <button className="custom-button-1" >AST</button>
+          </a>
         </VerticalTimelineElement>
 
 
@@ -66,13 +77,11 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">Delivery Driver</h3>
           <h4 className="vertical-timeline-element-subtitle">Brampton, ONT</h4>
           <p>
-            <span className="bullet-point">&bull; Delivering Food to Customers. </span>
-            <br />
-            <span className="bullet-point">&bull; Occasional Kitchen Assistant </span>
-            <br />
-            <span className="bullet-point">&bull; Cleaning up the restaurant. </span>
-            <br />
-            <span className="bullet-point">&bull; Assisting Cook where ever possible. </span>
+            During my tenure in the food service industry, I efficiently managed the delivery of food to customers,
+            ensuring timely and accurate service. I occasionally served as a kitchen assistant, contributing to the
+            preparation and organization of meals. Additionally, I maintained a clean and sanitary environment by
+            diligently cleaning the restaurant. My role also involved assisting the cook with various tasks, demonstrating flexibility
+            and a proactive approach to supporting kitchen operations.
           </p>
         </VerticalTimelineElement>
 
@@ -84,7 +93,7 @@ const Experience = () => {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#ffffff' }}
           icon={<FaBriefcase />} // Placeholder icon
         >
-          <h3 className="vertical-timeline-element-title">Mycro Harvest INC</h3>
+          <h3 className="vertical-timeline-element-title">Mycro Harvest Inc</h3>
           <h4 className="vertical-timeline-element-subtitle">Waterloo, ONT</h4>
           <p>
             <span className="bullet-point">&bull; Improved Front-End Visuals. </span>
@@ -92,6 +101,11 @@ const Experience = () => {
             <span className="bullet-point">&bull; Worked on Capturing Data, and Labeling Mushroom Characteristics. </span>
             <br />
           </p>
+
+          <a href="https://www.mycroharvest.com/" target="_blank" rel="noopener noreferrer">
+            <button className="custom-button-2" style={{ backgroundColor: "#E8D037", color: "#000000"}}>Mycro Harvest</button>
+          </a>
+
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

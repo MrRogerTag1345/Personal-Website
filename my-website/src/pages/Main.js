@@ -1,3 +1,4 @@
+// src/pages/Main.js
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from '../components/Header';
@@ -14,7 +15,7 @@ const Website = () => {
       <Header />
       <div className="content">
         <Sidebar />
-        <div className='Webpage'>
+        <div className="Webpage">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/experience" element={<Experience />} />
