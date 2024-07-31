@@ -35,6 +35,46 @@ const Projects = () => {
     },
   ];
 
+  const mllinks = [
+    {
+      text: 'Machine Learning Project 1',
+      url: '/ML1/info',
+      description: "This project consists of 3 tasks. Acquire a dataset and clean the dataset if necessary. Next is to implement k-nearest neighbor and Logistic Regression.",
+      additionalLinks: [
+        { text: 'GitHub', url: 'https://github.com/CP322-Machine-Learning-Group/Mini-Project-1', external: true }
+      ]
+    },
+    {
+      text: "Machine Learning Project 2",
+      url: '/ML2/info',
+      description: "Implement five different classifications. These models include Logistic regression, Decision trees, Support vector machines, Adaboost, and random forest, and will be applied to two text-based data sets. We have compared the accuracy and efficiency of all five models on the datasets. The results showed that trees had a lower efficiency and sometimes lower accuracy than the linear-based models. We believe this to be the result of numerous amounts of branches, due to the classification style of tree-based models.",
+      additionalLinks: [
+        { text: 'GitHub', url: 'https://github.com/CP322-Machine-Learning-Group/Mini-Project-2', external: true }
+      ]
+    },
+    {
+      text: "Machine Learning Project 3",
+      url: '/ML3/info',
+      description: "This project worked with, ANN, and NLP.",
+      additionalLinks: [
+        { text: 'GitHub', url: 'https://github.com/CP322-Machine-Learning-Group/Mini-Project-3', external: true }
+      ]
+    }
+  ];
+
+  /*
+  const courselinks = [
+    {
+      text: '',
+      url: '/ML1/info',
+      description: "This project consists of 3 tasks. Acquire a dataset and clean the dataset if necessary. Next is to implement k-nearest neighbor and Logistic Regression.",
+      additionalLinks: [
+        { text: 'GitHub', url: 'https://github.com/CP322-Machine-Learning-Group/Mini-Project-1', external: true }
+      ]
+    }
+  ];
+  */
+
   return (
     <div className="page-container">
       <main className="projects-content">
@@ -44,6 +84,12 @@ const Projects = () => {
 
         <h2>Python Project</h2>
         <GridLinks links={pythonlinks} />
+
+        <h2>Machine Learning</h2>
+        <GridLinks links={mllinks} />
+
+        <h2>Course Notes</h2>
+        <GridLinks links={mllinks} />
       </main>
     </div>
   );
